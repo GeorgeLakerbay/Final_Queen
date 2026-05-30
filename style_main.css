@@ -171,3 +171,44 @@ footer{
     display : flex;
 }
 
+
+@media(max-width : 425px){
+    .logo{
+        width : 120px;
+    }
+
+    .header_nav{
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        gap : 5px;
+    }
+
+    .header_main{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
+        align-items: center;
+    }
+
+    .main_img{
+        width : 300px;
+    }
+
+    .two_pictures{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+    }
+    .two_pictures > img{
+        width : 200px;
+    }
+
+
+    
+    
+
+
+}
+
