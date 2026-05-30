@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: black;
+    color : #f2d11d;
+    margin : auto;
+    text-align: center;
+    font-family: "Great Vibes";
+    
+}
+
+p{
+    font-size: 30px;
+}
+
+img{
+    pointer-events: none;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 220px;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+.header_nav{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap : 20px;
+}
+
+
+.header_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+
+hr{
+    border : none;
+    border-top : 2px solid #f2d11d;
+}
+
+li{
+    transition: 0.5s;
+}
+
+.header_li:hover{
+    transform: translate(0px, 10px);
+    color:#a58f14
+}
+
+main{
+    
+    font-size: 22px;
+    
+}
+
+main > header > p{
+    
+    font-size: 25px;
+}
+
+.main_img{
+    width : 500px;
+}
+
+section > div{
+    margin-top: 70px;
+    font-size: 30px;
+    margin: 170px 0px;
+}
+
+section{
+    margin : 100px 0px;
+    font-size : 30px;
+}
+
+a{
+    text-decoration: none;
+    color :#f2d11d
+}
+
+
+ol{
+    margin-top: 100px;
+}
+
+.two_pictures{
+    display: flex;
+    justify-content: space-around;
+}
+
+.two_pictures > img{
+    width : 400px;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.p{
+    color : black;
+}
+
+.pomarka:hover + .p{
+    color : lightgray;
+}
+
+.music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 10px;
+    margin : 30px;
+}
+
+
+span{
+    color : gold;
+}
+
+footer{
+    position: relative;
+}
+
+.footer_p{
+    position: absolute;
+    right : 50px;
+    bottom : -20px;
+    transition: 0.5s;
+}
+
+.footer_p:hover{
+    transform: translate(0px, -10px);
+    color:#a58f14
+}
+
+
+.card{
+    width : 400px;
+    margin: 20px;
+    padding : 20px;
+    border : 2px solid #f2d11d;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+.card > img{
+    width : 253px;
+    height: 444px;
+    border : 2px solid #f2d11d;
+}
+
+.prof{
+    font-weight: 200;
+}
+
+
+.cards{
+    display : flex;
+}
+
